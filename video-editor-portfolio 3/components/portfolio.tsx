@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Play, ExternalLink, Instagram } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "../components/ui/badge"
 
 const categories = ["Todos", "Obela", "Vouge", "Matusalem", "Flaying Visit"]
 

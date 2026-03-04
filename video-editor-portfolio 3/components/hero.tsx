@@ -1,7 +1,7 @@
 "use client"
 
 import { ArrowDown, Play, Sparkles } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 import Link from "next/link"
 
 export function Hero() {

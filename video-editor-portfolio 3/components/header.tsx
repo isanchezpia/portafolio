@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X, Play } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 
 const navLinks = [
   { href: "#portafolio", label: "Portafolio" },

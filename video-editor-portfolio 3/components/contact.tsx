@@ -4,10 +4,10 @@ import React from "react"
 
 import { useState } from "react"
 import { Mail, MapPin, Send, CheckCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
+import { Button } from "../components/ui/button"
+import { Input } from "../components/ui/input"
+import { Textarea } from "../components/ui/textarea"
+import { Label } from "../components/ui/label"
 
 export function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false)
